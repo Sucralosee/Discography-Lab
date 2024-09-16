@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 
 function App() {
@@ -6,7 +5,7 @@ function App() {
   return (
     <>
       <header className='header-area'>
-        <img src='./public/BoominatiLogo.png' className="mb-logo"></img>
+        <img src='/BoominatiLogo.png' className="mb-logo"></img>
         <h1> Metro Boomin Discography</h1>
       </header>
 
@@ -22,12 +21,12 @@ function App() {
 
         <div className="left-content">
           <div className="albums">
-            <img id="image1" className='album-cover' src="./public/WsDTyCover.jpg"></img>
-            <img id="image2" className='album-cover' src="./public/HaVCover.png"></img>
-            <img id="image3" className='album-cover' src="./public/SpiderCover.jpg"></img>
-            <img id="image4" className='album-cover' src="./public/NaHwCCover.jpg"></img>
-            <img id="image5" className='album-cover' src="./public/SavMCover.webp"></img>
-            <img id="image6" className='album-cover' src="./public/DoNCover.webp"></img>
+            <img id="image1" className='album-cover' src="/WsDTyCover.jpg"></img>
+            <img id="image2" className='album-cover' src="/HaVCover.png"></img>
+            <img id="image3" className='album-cover' src="/SpiderCover.jpg"></img>
+            <img id="image4" className='album-cover' src="/NaHwCCover.jpg"></img>
+            <img id="image5" className='album-cover' src="/SavMCover.webp"></img>
+            <img id="image6" className='album-cover' src="/DoNCover.webp"></img>
           </div>
         </div>
 
